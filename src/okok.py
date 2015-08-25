@@ -13,6 +13,10 @@ def _ok1():
   assert 1==1
 
 @ok
+def _ok():
+  assert 8==9
+
+@ok
 def _ok2():
   assert 2==1
 
